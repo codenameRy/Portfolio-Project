@@ -40,6 +40,10 @@
 
 /* General Styles */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
@@ -188,9 +192,18 @@ header {
     z-index: 1000;
 }
 
-.nav-open {
-    background: red;
+.nav-open .nav {
+    transform: translateX(0);
 }
+
+.nav-open .nav-toggle {
+    position: fixed;
+}
+
+.nav-open .hamburger {
+    transform: rotate(180deg);
+}
+/* Turn can be used instead of degrees Example 180deg */
 
 /* Header - Hamburger Menu */
 
