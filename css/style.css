@@ -188,6 +188,10 @@ header {
     z-index: 1000;
 }
 
+.nav-open {
+    background: red;
+}
+
 /* Header - Hamburger Menu */
 
 .hamburger {
@@ -198,7 +202,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-dark);
+    background: var(--clr-accent);
     width: 2.5em;
     height: 3px;
     border-radius: 1em;
