@@ -374,8 +374,9 @@ header {
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    text-align: center;    
+    text-align: center;
 }
+
 
 .portfolio {
     display: grid;
@@ -383,7 +384,11 @@ header {
     
     /* max-width is optional */
 }
-
+.portfolio-title {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    /* text-decoration: none; */
+}
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
