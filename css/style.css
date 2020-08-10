@@ -276,7 +276,15 @@ header {
 }
 
 /* Skills */
+.section-about {
+    background-size: contain; 
+    padding: 3rem 1.5rem;
+    justify-content: center;
+}
 
+.container {
+    justify-content: center;
+}
 .row {
     display: flex;
     justify-content: center;
@@ -285,7 +293,7 @@ header {
   .icon {
     display: flex;
     flex-direction: column;
-    height: 60px !important;
+    height: 60px;
     width: 60px !important;
     font-size: 50px !important;
     margin-left: 50px !important;
@@ -301,7 +309,7 @@ header {
   
   span {
     font-size: 20px !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--ff-primary);
     font-weight: bold !important;
   }
   
