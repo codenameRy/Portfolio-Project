@@ -285,24 +285,36 @@ header {
 .container {
     justify-content: center;
 }
+
+h1.title-marble {
+    color: black;
+    font-size: 60px !important;
+    font-family: 'Lilita One', cursive;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
 .row {
     display: flex;
     justify-content: center;
   }
   
   .icon {
+    position: relative;
+    top: 5px;
+    left: 5px;
     display: flex;
     flex-direction: column;
-    height: 60px;
+    height: 60px !important;
     width: 60px !important;
-    font-size: 50px !important;
-    margin-left: 50px !important;
-    margin-right: 50px !important;
+    font-size: 40px !important;
+    margin-left: 40px !important;
+    margin-right: 40px !important;
     margin-top: 40px;
     margin-bottom: 40px;
+    justify-content: center;
   }
   .icon:hover {
-    transform : translateY(-15px);
+    transform : translateY(-20px);
     color:  #3273dc;
   }
   
@@ -311,6 +323,11 @@ header {
     font-size: 20px !important;
     font-family: var(--ff-primary);
     font-weight: bold !important;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 20px;
   }
   
   section {
