@@ -341,7 +341,7 @@ header {
     content: '';
     display: block;
     width: 3em;
-    height: 1px;
+    height: 2px;
     margin: 0.5em auto 1em;
     background: currentColor;
     opacity: 0.20;
@@ -355,7 +355,15 @@ header {
     max-width: 500px;
     margin: 0 auto;
 }
-
+.education_divider {
+    content: '';
+    display: block;
+    width: 11em;
+    height: 2px;
+    margin: 0.5em auto 1em;
+    background: var(--clr-accent);
+    opacity: 0.20;
+}
 .education__img {
     height: 80px !important;
     width: 80px !important;
@@ -450,6 +458,8 @@ header {
 }
 
 .portfolio__img {
+    height: 360px;
+    width: 360px;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
