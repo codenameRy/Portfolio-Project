@@ -280,7 +280,7 @@ header {
 .section-about {
     display: block;
     text-align: center;
-    padding: 1em 1em 10em 1em;
+    padding: 1em 10em 10em 10em;
     
   }
 
@@ -291,7 +291,7 @@ header {
 
   .skills {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
   
   .icon {
@@ -300,15 +300,16 @@ header {
     height: 60px !important;
     width: 60px !important;
     font-size: 50px !important;
-    margin-left: 50px !important;
-    margin-right: 50px !important;
+    margin-left: 80px !important;
+    margin-right: 80px !important;
     margin-top: 40px;
     margin-bottom: 40px;
+    line-height: 0.8em;
     
   }
   .icon:hover {
     transform : translateY(-12px);
-    color:  #3273dc;
+    color:  var(--clr-accent);
   }
   
   
