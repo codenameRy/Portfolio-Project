@@ -275,6 +275,41 @@ header {
     }
 }
 
+/* Skills */
+
+.row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+    height: 60px !important;
+    width: 60px !important;
+    font-size: 50px !important;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .icon:hover {
+    transform : translateY(-15px);
+    color:  #3273dc;
+  }
+  
+  
+  span {
+    font-size: 20px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold !important;
+  }
+  
+  section {
+    display: block;
+    text-align: center;
+  }
+
 /* Services section */
 
 .my-services {
@@ -377,7 +412,7 @@ header {
     text-align: center;
 }
 
-
+/* //Addition */
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
