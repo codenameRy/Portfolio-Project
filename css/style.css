@@ -356,9 +356,18 @@ header {
     margin: 0 auto;
 }
 
+.education__img {
+    height: 80px !important;
+    width: 80px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
 @media (min-width: 800px) {
     .services {
-        display: flex;
+        display: block;
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
@@ -369,9 +378,9 @@ header {
         margin: 0 auto;
     }
 
-    .service + .service {
+    /* .service + .service {
         margin-left: 2em;
-    }
+    } */
 }
 
 .about-me {
