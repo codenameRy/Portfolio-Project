@@ -445,7 +445,7 @@ header {
     /* text-decoration: none; */
 }
 .portfolio__item {
-    background: var(--clr-accent);
+    /* background: var(--clr-accent); */
     overflow: hidden;
 }
 
