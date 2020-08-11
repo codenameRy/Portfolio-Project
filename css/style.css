@@ -450,16 +450,22 @@ header {
 .portfolio-title {
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    /* text-decoration: none; */
+    
 }
 .portfolio__item {
     /* background: var(--clr-accent); */
     overflow: hidden;
+    text-decoration: none;
+    justify-content: center;
 }
 
 .portfolio__img {
-    height: 360px;
-    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding: auto;
+    height: 380px;
+    width: 380px;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
