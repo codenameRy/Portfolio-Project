@@ -280,7 +280,7 @@ header {
 .section-about {
     display: block;
     text-align: center;
-    padding: 1em 10em 10em 10em;
+    padding: 1em auto 10em auto;
     
   }
 
