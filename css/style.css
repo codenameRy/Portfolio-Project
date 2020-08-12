@@ -131,7 +131,9 @@ h3 { font-size: var(--fs-h3) }
     font-weight: var(--fw-bold);
     margin-bottom: 1em;
 }
-
+.portfolio__item__description {
+    font-family: var(--ff-secondary);
+}
 /* header */
 
 header {
@@ -476,7 +478,7 @@ header {
 
 .portfolio__link__icon {
     background-color: var(--clr-dark);
-    color: var(--clr-light);
+    color: var(--clr-accent);
     margin-left: auto;
     margin-right: auto;
     padding-left: 0.5em;
@@ -547,7 +549,7 @@ header {
 /* Portfolio Item Individual */
 
 .portfolio-item-individual {
-    padding: 0 2em 2em;
+    padding: 0 2em 0.4em;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -556,4 +558,23 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.portfolio__item__div {
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.portfolio__item__icon {
+    background-color: var(--clr-light);
+    color: var(--clr-accent);
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    padding-bottom: 0.1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
