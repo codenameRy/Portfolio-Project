@@ -27,7 +27,8 @@
   <body>
     <header>
       <div class="logo">
-        <img src="images/ryanLeeman.png" alt="header image" />
+        <a href="index.html" class="nav__link"><img src="images/ryanLeeman.png" alt="header image" /></a>
+        
       </div>
       <!-- Navigation -->
       <button class="nav-toggle" aria-label="toggle navigation">
@@ -36,7 +37,8 @@
       <nav class="nav">
         <ul class="nav__list">
             <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-            <li class="nav__item"><a href="index.html#services" class="nav__link">Education</a></li>
+            <li class="nav__item"><a href="index.html#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item"><a href="index.html#education" class="nav__link">Education</a></li>
             <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
             <li class="nav__item"><a href="index.html#projects" class="nav__link">My Projects</a></li>
         </ul>
@@ -117,7 +119,7 @@
         </div>
       </section>
     <!-- Services -->
-     <section class="my-services" id="services">
+     <section class="my-services" id="education">
         <h2 class="section__title section__title--services">Education</h2>
         <div class="services">
             
@@ -142,10 +144,8 @@
                 </p>
             </div> <!-- / service -->
 
-            
-
         </div>
-        <a href="#work" class="btn">My Projects</a>
+        <a href="#projects" class="btn">My Projects</a>
      </section>
 
      <!-- About Me -->
@@ -175,29 +175,50 @@
             
             <div class="portfolio">
                 <!-- Portfolio Project 1 -->
-                
+                <div>
                 <a href="portfolio-item.html" class="portfolio__item">
                     <h3 class="portfolio-title">Premier League React</h3> 
                     <img src="images/Projects/Premier-League-Reactv1.jpeg" alt="Premier Leage React" class="portfolio__img">
-                    
                 </a>
+                <span class="portfolio__icon"><a class="portfolio__link__icon" href="https://premier-league-react.netlify.app/" target="_blank"
+                  rel="noopener noreferrer"><i class="fas fa-link fa-2x"></i></a>
+                  <a class="portfolio__link__icon" href="https://github.com/codenameRy/Premier-League-React" target="_blank"
+                  rel="noopener noreferrer"><i class="fab fa-github fa-2x"></i></a>
+                </span>
+              </div>
+                
                 <!-- Portfolio Project 2 -->
-                <a href="portfolio-item.html" class="portfolio__item">
-                    <h3 class="portfolio-title">TV Digital</h3>
-                    <img src="images/Projects/tv-digital.jpeg" alt="TV Digital" class="portfolio__img">
-                </a>
+                <div>
+                  <a href="portfolio-item.html" class="portfolio__item">
+                      <h3 class="portfolio-title">TV Digital</h3>
+                      <img src="images/Projects/tv-digital.jpeg" alt="TV Digital" class="portfolio__img">
+                  </a>
+                  <span class="portfolio__icon"><a class="portfolio__link__icon" href="https://react-tv-digital.herokuapp.com/" target="_blank"
+                    rel="noopener noreferrer"><i class="fas fa-link fa-2x"></i></a>
+                    <a class="portfolio__link__icon" href="https://github.com/codenameRy/React-TV-AppAug2020" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-github fa-2x"></i></a>
+                  </span>
+                </div>
                 <!-- Portfolio Project 3 -->
-                <a href="portfolio-item.html" class="portfolio__item">
-                    <h3 class="portfolio-title">Iron Brick Breaker Game</h3>
-                    <img src="images/Projects/iron-brick-breaker.jpeg" alt="Iron Brick Breaker Game" class="portfolio__img">
-                </a>
+                <div>
+                  <a href="portfolio-item.html" class="portfolio__item">
+                      <h3 class="portfolio-title">Iron Brick Breaker Game</h3>
+                      <img src="images/Projects/iron-brick-breaker.jpeg" alt="Iron Brick Breaker Game" class="portfolio__img">
+                  </a>
+                  <span class="portfolio__icon"><a class="portfolio__link__icon" href="https://codenamery.github.io/Brick-Breaker-Game/" target="_blank"
+                    rel="noopener noreferrer"><i class="fas fa-link fa-2x"></i></a>
+                    <a class="portfolio__link__icon" href="https://github.com/codenameRy/Brick-Breaker-Game" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-github fa-2x"></i></a>
+                  </span>
+                </div>
                
             </div>
      </section>
 
      <!-- Footer -->
      <footer class="footer">
-         <a href="mailto:ryanm.lee11@gmail.com" class="footer__link">ryanm.lee11@gmail.com</a>
+        <a href="mailto:ryanm.lee11@gmail.com" class="footer__link"><i class="far fa-envelope">
+        </i> ryanm.lee11@gmail.com</a>
         <ul class="social-list">
             <li class="social-list__item"><a class="social-list__link" href="https://github.com/codenameRy" target="_blank"
                 rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a></li>

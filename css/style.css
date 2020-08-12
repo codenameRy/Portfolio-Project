@@ -129,7 +129,7 @@ h3 { font-size: var(--fs-h3) }
 .section__subtitle--work {
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 /* header */
@@ -280,7 +280,7 @@ header {
 .section-about {
     display: block;
     text-align: center;
-    padding: 1em auto 10em auto;
+    padding: 1em auto 10em auto !important;
     
   }
 
@@ -450,6 +450,7 @@ header {
 .portfolio-title {
     background-color: var(--clr-dark);
     color: var(--clr-light);
+    padding-top: 1em;
     
 }
 .portfolio__item {
@@ -464,13 +465,28 @@ header {
     margin-right: auto;
     margin-top: 1em;
     padding: auto;
-    height: 380px;
-    width: 380px;
+    padding-bottom: 1em;
+    height: 360px;
+    width: 360px;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
         
 }
+
+.portfolio__link__icon {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    
+}
+
+/* .portfolio__icon {
+    padding-top: 2em;
+} */
 
 .portfolio__item:focus {
     position: relative;
