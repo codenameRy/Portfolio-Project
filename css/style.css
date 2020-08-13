@@ -295,6 +295,16 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
+
+  @media screen and (max-width: 600px)  {
+    .skills {
+        grid-template-columns: 140px auto;
+        justify-content: center;
+        padding-right: 5em;
+        
+    
+    }
+  }
   
   .icon {
     display: flex;
@@ -314,6 +324,7 @@ header {
     color:  var(--clr-accent);
   }
   
+
   
   span {
     font-size: 20px !important;
