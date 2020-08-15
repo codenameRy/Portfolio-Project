@@ -443,6 +443,14 @@ header {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .about-me__img {
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
+    }
+}
+
 /* My Work */
 
 .my-work {
