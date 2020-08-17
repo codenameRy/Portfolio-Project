@@ -298,7 +298,7 @@ header {
 
   @media screen and (max-width: 600px)  {
     .skills {
-        grid-template-columns: 140px auto;
+        grid-template-columns: 150px 150px auto;
         justify-content: center;
         padding-right: 5em;
     }
@@ -384,7 +384,7 @@ header {
     margin-top: 1em;
 }
 
-@media (min-width: 800px) {
+@media screen and (min-width: 800px) {
     .services {
         display: block;
         max-width: 1000px;
@@ -411,7 +411,7 @@ header {
     box-shadow: var(--bs);
 }
 
-@media (min-width: 600px) {
+@media screen and (min-width: 600px) {
     .about-me {
         display: grid;
         grid-template-columns: 1fr 260px;
