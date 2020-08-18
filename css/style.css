@@ -263,6 +263,9 @@ header {
         min-width: 400px;
         position: relative;
         z-index: 2;
+        transition: 
+        transform 750ms cubic-bezier(.5, 0, .5, 1),
+        opacity 250ms linear;
     }
 
     .section__subtitle--intro {
@@ -276,6 +279,13 @@ header {
         width: calc(100% + 1.5em);
     }
 }
+
+.intro__img:hover,
+.intro__img:focus {
+    transform: scale(1.2);
+    opacity: .5;
+}
+
 
 /* Skills */
 
@@ -503,7 +513,6 @@ header {
     padding-left: 0.5em;
     padding-right: 0.5em;
     text-decoration: none;
-    
 }
 
 /* .portfolio__icon {
@@ -520,6 +529,7 @@ header {
     transform: scale(1.2);
     opacity: .5;
 }
+
 
 /* footer */
 
@@ -542,7 +552,9 @@ header {
 }
 
 .footer__link:hover,
-.social-list__link:hover {
+.social-list__link:hover,
+.portfolio__link__icon:hover,
+.portfolio__item__icon:hover {
     opacity: .5;
 }
 
