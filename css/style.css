@@ -409,7 +409,6 @@ header {
 
 .about-me__img {
     box-shadow: var(--bs);
-    max-width: 120%;
 }
 
 @media screen and (min-width: 600px) {
