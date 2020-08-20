@@ -263,9 +263,6 @@ header {
         min-width: 400px;
         position: relative;
         z-index: 2;
-        transition: 
-        transform 750ms cubic-bezier(.5, 0, .5, 1),
-        opacity 250ms linear;
     }
 
     .section__subtitle--intro {
@@ -280,11 +277,7 @@ header {
     }
 }
 
-.intro__img:hover,
-.intro__img:focus {
-    transform: scale(1.2);
-    opacity: .5;
-}
+
 
 
 /* Skills */
@@ -610,4 +603,43 @@ header {
     padding-left: 0.5em;
     padding-right: 0.5em;
     text-decoration: none;
+}
+
+/* Portfolio Image with special effects */
+.intro__portfolio {
+    position: relative;
+}
+
+.intro__img__portfolio {
+    box-shadow: var(--bs);
+}
+
+@media (min-width: 600px) {
+    .intro__portfolio {
+        display: grid;
+        width: min-content;
+        margin: 0 auto;
+        grid-column-gap: 4em;
+        grid-template-areas: 
+            "img title"
+            "img subtitle";
+        grid-template-columns: min-content max-content;
+    }
+
+    .intro__img__portfolio {
+        grid-area: img;
+        min-width: 400px;
+        position: relative;
+        z-index: 2;
+        transition: 
+        transform 750ms cubic-bezier(.5, 0, .5, 1),
+        opacity 250ms linear;
+    }
+
+}
+
+.intro__img__portfolio:hover,
+.intro__img__portfolio:focus {
+    transform: scale(1.2);
+    opacity: .5;
 }
